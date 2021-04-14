@@ -1,0 +1,115 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_3_ComboMaisDeUmItem" sap:VirtualizedContainerService.HintSize="820,1351" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="32">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="64">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Web</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.Activities</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="3_ComboMaisDeUmItem" sap:VirtualizedContainerService.HintSize="476,1246" sap2010:WorkflowViewState.IdRef="Sequence_20">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Principal" sap:VirtualizedContainerService.HintSize="434,1154" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="IfNotOpen" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,938" sap2010:WorkflowViewState.IdRef="Sequence_21">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'AcreAlagoasAmapáAmazona…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,226" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" Text="Paraná[k(enter)]">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://sisweb.tesouro.gov.br/apex/f?p=2600:1::MOSTRA:NO:RP::" DesignTimeRectangle="246, 386, 672, 129" ElementType="DropDown" FriendlyName="'AcreAlagoasAmapáAmazona…'" FullSelectorArgument="&lt;webctrl tag='SELECT' id='P1_ST_ESTADO_LEFT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SELECT' id='P1_ST_ESTADO_LEFT' type='' aaname='Mover de' /&gt;" ImageBase64="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" InformativeScreenshot="0f4829bf1de8079dbda433bdd29eae9f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Principal' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click '2021'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://sisweb.tesouro.gov.br/apex/f?p=2600:1::MOSTRA:NO:RP::" DesignTimeRectangle="262, 628, 619, 22" FriendlyName="'2021'" FullSelectorArgument="&lt;webctrl id='P1_ST_ANO_LEFT' tag='SELECT' /&gt;&lt;webctrl tag='OPTION' /&gt;" FuzzySelectorArgument="&lt;webctrl id='P1_ST_ANO_LEFT' tag='SELECT' /&gt;&lt;webctrl tag='OPTION' type='' aaname='2021' check:text='2021' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAm8AAAAaCAYAAADhRrvTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANdSURBVHhe7d3PS9tgAIfx/ZO5BIQiFEQZlIFlWIT10osyLIIOLB7iwYseLKNkBwXJGB1IQHoYFfEwCtJdChIQpPDdmzStSfpD3WmB5wM5JHmT88ObvMk7AQAAIDeINwAAgBwh3gAAAHKEeAMAAMgR4g0AACBHiDcAAIAcWRhv/StH1dWCbMuSZdkqfnLk/4lPTgS6a9VVWrbNGEt2sar97734XMLDndydsopL4b3MuOWS6q07BcP4/JRAnYOirINOvA8AAIC58dZvVUy02VqrHev8ypd/cazqigkvuyL3Ph5kdI9MYJlx5S+uvKtzHdfWousq3/rxCCPoqBFeu1TWfsuTf+XJ3StHUVg0cRbEwyaGJtyORueJNwAAgGez4+2xrbptqbDnp8MqGB23d9t6CvcH56qawCqdJGfaAvl7BRN5dbUfR0d6ZyUTeBU1E9EX6p2Ex0tqJi5/uvflfBzN4kUb8QYAADAxO95uTrW2ZGnfj/cnAnlbJqg2XIXzasFlLYoyN/so9cZRwbLVuA53BvI+F2SvN6NrUm6PVTSBNhoX6qgRBpu9pu1LX80N4g0AACDpbQsWhl05yyaoal40I9c5DGfIGia5MsKZOxNh5a9TuZYyuKia6wtybuID5k7O5vi9ur5c4g0AACDlTfE2fg+u/jN6aKrOgYmrWTNq4xm0ReE1fg/uQ1MzljcYxBsAAEDWq+Nt8KMePeJ8XmDwpPaOiav4EWraC/EW3Ol0055a/JBGvAEAAGS9Kt56repoZehuW4PEpz3+aebtwVdjdRRup7dT60wTiDcAAICsxfE2DOQfjj79UT7qpleeGm9+563nqhp+521lW97cGbcx4g0AACBrfrwN+/K2wm+4FbV9OXvhweLVpunVqsEvR+XwMyPrjrqLJtwmiDcAAICsOfEW/93AhFvjekFpvfI7b7p3VQnDbdNVf+4fFbKINwAAgKzZ8XbjRIsTrPc1NQ4b09vZ86KFzmH8h4W9zB8WWuPZuoG8Wvh4taDyzox7mc37HQ9NId4AAACyZsZb96hgYsuE07wtucJ0+MK/TR881bLXZ7bnj/QmEW8AAABZixcsAAAA4L9CvAEAAOQI8QYAAJAjxBsAAECOEG8AAAA5QrwBAADkCPEGAACQG9JfNUL5p6KfMo0AAAAASUVORK5CYII=" InformativeScreenshot="319cf8a98b203d5670f50cd36da0978c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Principal' /&gt;" SearchSteps="Selector" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click '2013'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="HardwareEvents" KeyModifiers="Shift" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://sisweb.tesouro.gov.br/apex/f?p=2600:1::MOSTRA:NO:RP::" DesignTimeRectangle="262, 681, 619, 22" FriendlyName="'2013'" FullSelectorArgument="&lt;webctrl id='P1_ST_ANO_LEFT' tag='SELECT' /&gt;&lt;webctrl aaname='2013' tag='OPTION' /&gt;" FuzzySelectorArgument="&lt;webctrl id='P1_ST_ANO_LEFT' tag='SELECT' /&gt;&lt;webctrl aaname='2013' tag='OPTION' type='' check:text='2013' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAm8AAAAaCAYAAADhRrvTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOLSURBVHhe7d3Ba9tmHMbx/pO6CArGICgxBROIGTOF+SIGLaOmEA9iwpAPvtSHlWDUgwvFoXgQBMG9OJQchqF4FAxFEAiGp6+sd42SyF7NGEzV9wM+6NUr6/rwe9+f3gcCAABAYRDeAAAACoTwBgAAUCCENwAAgAIhvAEAABQI4Q0AAKBAtoa3xVmg1l5FruPIcVx5PwWK/rI3v4p1OWyrXnXNHEeu11LndG7v5YvPu/Kcrqb2Oiv+MFLniX2nW1H9eajLz/YmAABAyW0Mb4th0wQoVzW/r9FZpOhNX61HSaBqKvxoJxmznrcOdo1fQ43PRur7tfVzzdcLO+O2+H2ghpuEwZzw9jFU09xzDzoKTyONhx01Hpq5j8zc2M4BAAAosfzwdjVR24SoymGkW5kpTsfdFxNdJ9fLkVqOo/rLbKUtVnRYMSGvrcmVHUpcLxT91rBVvLzwFmvsm/GqGc8+9+dAdTO/+XppBwAAAMorP7xdDFR76KgT2euvTMB6agLWj6GSulr81jchrKnw7lLqRaCK46p7bq+N6VES2FzVfhkrOmnmhLeZ+o891Xoze219HstPwtswv5IHAABQJrs1LKxmCqomhPnjdUVuepzsc8tZ/kwqdyZwNU5uAte011Rwll4nS7K5z91xvZwpfOqlS7X39toBAACUz07h7e99cO0/1oumaTXt4NW6CnfbVN1kafQoP579c3izz69/dQUX6fsAAADK7pvD2/JdW54JU54JZOk+uGtNnptwZZdQb/uX4S2+1OQ0aZIY6NlBUt3z1D2nYwEAAOCbwtt82Fo3GngvJlqu7KDx31XeMlZzDfbNf1UDzTLvBgAAKKPt4W0VKzpOP/3R6M1sxe3GLnvesnYKb8bipGHms+8NAABgc3hbLTROmgUcT8/e5oew7d2med2qqdzw9mkkv+qq9eb+J0HmL2vpez7ZAQAAgJLaEN5iTY/S4LZ1r9ku33nLyK+82U7W/YHm2eXReKpu8nHg/Vfafm4DAADA9y8/vF0E6+YE57Gv7nH3/u/3m6aF6bE9YeHwzgkLW77LtmnZND02y5H7Q3rCQnKqg7/n3jvVAQAAoKxyw9usVzHhyoS3Tb9sh+lq97NNt+15iz+Eau9nzjb9uZ9znioAAEA5bW9YAAAAwP8K4Q0AAKBACG8AAAAFQngDAAAoEMIbAABAgRDeAAAACoTwBgAAUBjSF2Ld/PSroFt+AAAAAElFTkSuQmCC" InformativeScreenshot="fca0cdf383e1c4d4780fb0e3b04dc920.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Principal' /&gt;" SearchSteps="Selector" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://sisweb.tesouro.gov.br/apex/f?p=2600:1::MOSTRA:NO:RP::" DesignTimeRectangle="928, 588, 20, 20" FriendlyName="'SPAN'" FullSelectorArgument="&lt;webctrl parentid='P1_ST_ANO_MOVE' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='P1_ST_ANO_MOVE' tag='SPAN' type='' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB+SURBVEhLY/hPYzBqAUEw7C14+39bTdL/SSc/Q/mkA4I++Hxy0v8wlzCyLSEqiCixhOg4INcSkiL57cE2ki0hyQIQINUSki0AAVIsGXwW0DSIaBrJ5BgOAkRZQK7hIEDQAkoMBwECFgALu6aM/zPINBwESIpkcsCoBQTA//8A/HbJSWaAgi4AAAAASUVORK5CYII=" InformativeScreenshot="d533ef5a5c64495a7c50d45fe1705b5e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Principal' /&gt;" SearchSteps="Selector" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-1929, -9, 1938, 1098" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGMSURBVDhPfZPPKwRhGMffsmvC+NHmSikHp02K5KTsldgDK+KgxUUpf4HDJBS7akXNCUk5uNpQkuKAk03RnkWRRNa22+v7zDyz3hmTb32m3ed9Pt+d3WaFE5lpGAASzPPoT8I7PTOgCAweuQN5m0sWeVQKpFkgwRuo47E7EFu4gBjmMckRQJ9MBUke+wdilgueQDWEILhnmejmVf9AOuQCIg6hT5EJnVf9AyntFNwct2f0KeOuanJBamOrMjiyVhRR8xk8gAuwb1tRswL0g1T2PPztFFwddUjM/geXPfBBb/TYuizeNjq3Ly/TnYVALPWlja9Ionw0SdIjyNO+BS6f4BQkljaHNhyZ2cJ3Xvb8Bq181yHQRS/KrAFCgqdgAkKvp2Ca193BsgZeFTkHQhA08KIUHLDiDpYHFZkw+YgeJEMpyIFaPvoNhBNFzoMmPqKCekCPsFMS5yM7WG5WZMLvvzCnFJzx2A6EhCLTo1zJR6VACoBrpaTNOsByDXhnmYhYBz4hCRS4YFcIIX4AHjpn/g2aRogAAAAASUVORK5CYII=" InformativeScreenshot="72a6e837d588ff4e6b942a30aa2ec19d.png" Selector="&lt;html app='chrome.exe' title='Principal'/&gt;" Url="https://sisweb.tesouro.gov.br/apex/f?p=2600:1::MOSTRA:NO:RP::" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
